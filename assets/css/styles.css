@@ -843,43 +843,79 @@ body {
 }
 
 .set-size dl.infos dd span:after {
-  content: 'Equatorial Circumference, Relative Gravity';
+  content: 'Equatorial Circumference, Relative Gravity, Temperature';
 }
 
 .set-size #sun dl.infos dd:after {
-  content: '4,370,005 km, n/a G';
+  content: '4,370,005 km';
 }
 
 .set-size #mercury dl.infos dd:after {
-  content: '15,329 km, 0.378 G';
+  content: '15,329 km, 0.378 G, 167 C';
 }
 
 .set-size #venus dl.infos dd:after {
-  content: '38,024 km, 0.907 G';
+  content: '38,024 km, 0.907 G, 464 C';
 }
 
 .set-size #earth dl.infos dd:after {
-  content: '40,030 km, 1 G';
+  content: '40,030 km, 1 G, 15 C';
 }
 
 .set-size #mars dl.infos dd:after {
-  content: '21,296 km, 0.377 G';
+  content: '21,296 km, 0.377 G, -65 C';
 }
 
 .set-size #jupiter dl.infos dd:after {
-  content: '439,263 km, 2.36 G';
+  content: '439,263 km, 2.36 G, -110 C';
 }
 
 .set-size #saturn dl.infos dd:after {
-  content: '365,882 km, 0.916 G';
+  content: '365,882 km, 0.916 G, -140 C';
 }
 
 .set-size #uranus dl.infos dd:after {
-  content: '159,354 km, 0.889 G';
+  content: '159,354 km, 0.889 G, -195 C';
 }
 
 .set-size #neptune dl.infos dd:after {
-  content: '154,704 km, 1.12 G';
+  content: '154,704 km, 1.12 G, -200 C';
+}
+
+.set-size #sun dl.infos dd:after {
+  content: '4,370,005 km, n/a, n/a';
+}
+
+.set-size #mercury dl.infos dd:after {
+  content: '15,329 km, 0.378 G, 167 C';
+}
+
+.set-size #venus dl.infos dd:after {
+  content: '38,024 km, 0.907 G, 464 C';
+}
+
+.set-size #earth dl.infos dd:after {
+  content: '40,030 km, 1 G, 15 C';
+}
+
+.set-size #mars dl.infos dd:after {
+  content: '21,296 km, 0.377 G, -65 C';
+}
+
+.set-size #jupiter dl.infos dd:after {
+  content: '439,263 km, 2.36 G, -110 C';
+}
+
+.set-size #saturn dl.infos dd:after {
+  content: '365,882 km, 0.916 G, -140 C';
+}
+
+.set-size #uranus dl.infos dd:after {
+  content: '159,354 km, 0.889 G, -195 C';
+}
+
+.set-size #neptune dl.infos dd:after {
+  content: '154,704 km, 1.12 G, -200 C';
 }
 
 /* --------------------------------------------------------------------------- distance */

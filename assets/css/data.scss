@@ -210,17 +210,17 @@ $d-neptune:             4498396441;
 
 /* --------------------------------------------------------------------------- size */
 
-.set-size dl.infos dd span:after     { content: 'Equatorial Circumference, Relative Gravity'; }
+.set-size dl.infos dd span:after     { content: 'Equatorial Circumference, Relative Gravity, Temperature'; }
 
-.set-size #sun dl.infos dd:after     { content: '4,370,005 km, n/a'; }
-.set-size #mercury dl.infos dd:after { content: '15,329 km, 0.378 G'; }
-.set-size #venus dl.infos dd:after   { content: '38,024 km, 0.907 G'; }
-.set-size #earth dl.infos dd:after   { content: '40,030 km, 1 G'; }
-.set-size #mars dl.infos dd:after    { content: '21,296 km, 0.377 G'; }
-.set-size #jupiter dl.infos dd:after { content: '439,263 km, 2.36 G'; }
-.set-size #saturn dl.infos dd:after  { content: '365,882 km, 0.916 G'; }
-.set-size #uranus dl.infos dd:after  { content: '159,354 km, 0.889 G'; }
-.set-size #neptune dl.infos dd:after { content: '154,704 km, 1.12 G'; }
+.set-size #sun dl.infos dd:after     { content: '4,370,005 km'; }
+.set-size #mercury dl.infos dd:after { content: '15,329 km, 0.378 G, 167 C'; }
+.set-size #venus dl.infos dd:after   { content: '38,024 km, 0.907 G, 464 C'; }
+.set-size #earth dl.infos dd:after   { content: '40,030 km, 1 G, 15 C'; }
+.set-size #mars dl.infos dd:after    { content: '21,296 km, 0.377 G, -65 C'; }
+.set-size #jupiter dl.infos dd:after { content: '439,263 km, 2.36 G, -110 C'; }
+.set-size #saturn dl.infos dd:after  { content: '365,882 km, 0.916 G, -140 C'; }
+.set-size #uranus dl.infos dd:after  { content: '159,354 km, 0.889 G, -195 C'; }
+.set-size #neptune dl.infos dd:after { content: '154,704 km, 1.12 G, -200 C'; }
 
 /* --------------------------------------------------------------------------- distance */
 
